@@ -1,0 +1,37 @@
+body{
+    background-color: #D55B79;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    color: white;
+}
+h1{
+    color: white;
+}
+#container{
+    border: 10px solid #450020;
+    border-radius: 12px;
+    background-color: #901331;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 1;
+}
+button{
+    background-color: #Bc2749;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+img{
+    z-index: 2;
+    position: absolute;
+   margin: 500px 400px 0 0;
+}
