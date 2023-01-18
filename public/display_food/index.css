@@ -1,0 +1,44 @@
+body{
+    background-color: #F4DCBB;
+}
+h1{
+    color: #5f4434;
+}
+h2{
+    color: #F4DCBB;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4922f;
+    border-radius: 15px;
+    width: 300px;
+    flex: 1;
+}
+#container > p{
+    color: #1d8265;
+}
+#container-veggies > p{
+    color: #5f4434;
+}
+#container-veggies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d8265;
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    flex: 1;
+}
+#display-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 858px;
+    min-height: 32vh;
+}
