@@ -21,7 +21,7 @@ h2{
     color: #1d8265;
 }
 #container-veggies > p{
-    color: #5f4434;
+    color: #98C4B7;
 }
 #container-veggies{
     display: flex;
@@ -31,7 +31,6 @@ h2{
     background-color: #1d8265;
     border-radius: 15px;
     width: 300px;
-    height: 300px;
     flex: 1;
 }
 #display-box{
