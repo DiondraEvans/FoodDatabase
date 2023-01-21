@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const fruitSchema = new mongoose.Schema({
+const VeggieSchema = new mongoose.Schema({
     type: { type: String, required: true},
     name:  { type: String, required: true },
     color:  { type: String, required: true },
@@ -9,6 +9,7 @@ const fruitSchema = new mongoose.Schema({
 });
 
 //make an instance of the fruitSchema
-const MyFruit = mongoose.model('MyFruit', fruitSchema);
+const MyVeggies = mongoose.model('MyVeggies', VeggieSchema);
 
-module.exports = MyFruit;
+module.exports = MyVeggies;
+//required has to be true or false

@@ -1,9 +1,26 @@
 body{
     background-color: #D55B79;
+}
+#content-wrap{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+nav > p{
+    background-color: #Bc2749;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30%;
+}
+nav >h1{
+    color: #901331;
 }
 label{
     color: white;
@@ -11,6 +28,7 @@ label{
 h1{
     color: white;
 }
+
 #container{
     border: 10px solid #450020;
     border-radius: 12px;
